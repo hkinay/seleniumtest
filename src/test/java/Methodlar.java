@@ -6,7 +6,5 @@ public class Methodlar {
         WebDriverManager.chromedriver().setup();
         Driver.driver.navigate().to(URL_);
     }
-    public  void click_byXpath(){
-        WebElementler.acceptbtn.click();
-    }
+
 }
